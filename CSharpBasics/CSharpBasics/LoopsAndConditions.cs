@@ -2,11 +2,11 @@
 {
     public class LoopsAndConditions
     {
-        public void IfElseConditions(int grade)
+        public void IfElseConditions(int grade, string character = "+")
         {
             if (grade >= 0 && grade <= 10)
             {
-                if ((grade == 4 || grade == 5 || grade == 6) && specailCaracter == "+")
+                if ((grade == 4 || grade == 5 || grade == 6) && character == "+")
                 {
                     Console.WriteLine("Exam passed satisfactory!");
                 }
@@ -83,7 +83,7 @@
             }
 
             // do-while loop
-            int i = 0;
+             i = 0;
 
             do
             {
