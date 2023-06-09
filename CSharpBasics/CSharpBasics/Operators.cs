@@ -130,34 +130,34 @@
 
         public void Cast()
         {
-            byte a = 4;
+            //byte a = 4;
 
-            int b = a + 70;
+            //int b = a + 70;
 
-            Console.WriteLine(b);
+            //Console.WriteLine(b);
 
-            //неявные преобразования -> меньший в больший
+            ////неявные преобразования -> меньший в больший
 
-            double a = 4; // 0000100
+            //double a = 4; // 0000100
 
-            double b = a; // 0000000000100
+            //double b = a; // 0000000000100
 
-            //явные преобразования -> больший в меньший
+            ////явные преобразования -> больший в меньший
 
-            int c = 4;
-            int d = 6;
-            byte e = (byte)(c + d);
+            //int c = 4;
+            //int d = 6;
+            //byte e = (byte)(c + d);
 
-            int a = 33;
-            int b = 800;
-            int c = (a + b);
-            Console.Write(c);
+            //int a = 33;
+            //int b = 800;
+            //int c = (a + b);
+            //Console.Write(c);
 
-            //void Sum(int a, int b)
-            //{
-            //}
+            ////void Sum(int a, int b)
+            ////{
+            ////}
 
-            //Sum((int)a, (int)b);
+            ////Sum((int)a, (int)b);
         }
 
         public void CastWithConvert()
