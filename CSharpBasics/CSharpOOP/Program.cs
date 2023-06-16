@@ -1,5 +1,6 @@
 ﻿using CSharpOOP;
 using CSharpOOPAccessModifiers;
+using Microsoft.VisualBasic;
 
 
 static class Program
@@ -7,21 +8,44 @@ static class Program
    
     static void Main()
     {
-        IceCream goshaIceCream = new IceCream();
+        Calculator.Add(2, 8);
+        Calculator.Multiply(2, 8);
+
+        double number = 4;
+        number.Add(5);
+
+
+        Pen myPen = new Pen();
+        myPen.Color = "red";
+        myPen.Manufacturer = "Aliexpress";
+        myPen.PrintFeatures();
+
+        myPen.ChangePen();
+
+        Pen.Length = 15;
+
+        var ingredient = IceCream.MainIngredient;
+
+        IceCream goshaIceCream = new IceCream("Gosha");
         goshaIceCream.Name = "Gosha";
-        goshaIceCream.Price = 2.5;
+        goshaIceCream.SecretIngredient = "Cherry";
         goshaIceCream.Taste = "Vanilla";
         goshaIceCream.Weight = 100;
 
-        goshaIceCream.PrintIceCream();
+        IceCream.PrintIceCream(goshaIceCream);
 
-        var noirIceCream = new IceCream
+        //var secretIngredient = goshaIceCream.SecretIngredient;
+
+        var noirIceCream = new IceCream("Noir")
         {
-            //noirIceCream.Name = "Noir";
-            Price = 4.5,
+            //Name = "Noir",
+           // Price = 4.5,
             Taste = "Chocolate",
             Weight = 200,
         };
+
+        //var iceCreamName = noirIceCream.Name;
+        noirIceCream.Name = "Noir 2.0";
 
         noirIceCream.PrintIceCream();
 
@@ -30,6 +54,9 @@ static class Program
 
         Milk milk = new Milk();
         milk.PrintMilkPercent();
+
+        Incrementer.CurrentNumber = 2;
+        Incrementer.Increment();
     }
 }
 
