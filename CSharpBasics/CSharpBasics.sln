@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpOOP", "CSharpOOP\CSha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpOOPAccessModifiers", "CSharpOOPAccessModifiers\CSharpOOPAccessModifiers.csproj", "{E849918F-0B11-4063-B78A-B08DB99E362A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCollections", "CSharpCollections\CSharpCollections.csproj", "{70046F07-11CB-43B7-B619-170EA8F47EEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpCollections", "CSharpCollections\CSharpCollections.csproj", "{70046F07-11CB-43B7-B619-170EA8F47EEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpOOPInheritance", "CSharpOOPInheritance\CSharpOOPInheritance.csproj", "{F5EA2EFC-40DD-45ED-B61D-336EDF533B8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{70046F07-11CB-43B7-B619-170EA8F47EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70046F07-11CB-43B7-B619-170EA8F47EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70046F07-11CB-43B7-B619-170EA8F47EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5EA2EFC-40DD-45ED-B61D-336EDF533B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5EA2EFC-40DD-45ED-B61D-336EDF533B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5EA2EFC-40DD-45ED-B61D-336EDF533B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5EA2EFC-40DD-45ED-B61D-336EDF533B8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
