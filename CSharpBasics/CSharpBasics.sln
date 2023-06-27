@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpCollections", "CSharp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpOOPInheritance", "CSharpOOPInheritance\CSharpOOPInheritance.csproj", "{F5EA2EFC-40DD-45ED-B61D-336EDF533B8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{79A86E4D-CF89-4ACD-A1B4-5AA066F67243}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F5EA2EFC-40DD-45ED-B61D-336EDF533B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5EA2EFC-40DD-45ED-B61D-336EDF533B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5EA2EFC-40DD-45ED-B61D-336EDF533B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79A86E4D-CF89-4ACD-A1B4-5AA066F67243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79A86E4D-CF89-4ACD-A1B4-5AA066F67243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79A86E4D-CF89-4ACD-A1B4-5AA066F67243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79A86E4D-CF89-4ACD-A1B4-5AA066F67243}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

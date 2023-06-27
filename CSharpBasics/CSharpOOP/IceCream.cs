@@ -52,7 +52,7 @@ namespace CSharpOOP
         {
             get
             {
-                return _price - _price * Tax;
+                return _price - _price * TaxConst;
             }
         }
 
