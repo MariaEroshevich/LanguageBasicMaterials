@@ -74,6 +74,8 @@
 
 //class Array
 
+using System.Collections;
+
 Array massive4 = Array.CreateInstance(typeof(string), 3);
 massive4.SetValue("First Name", 0);
 massive4.SetValue("Last Name", 1);
@@ -86,7 +88,7 @@ massive4.SetValue("Age", 2);
 
 //Console.WriteLine(massive4.GetValue(2));
 
-var people = new string[] { "Tom", "Sten", "Stiven", "Bill", "Sten" };
+//var people = new string[] { "Tom", "Sten", "Stiven", "Bill", "Sten" };
 //Array.Sort(people);
 //var index = Array.BinarySearch(people, "Sten");
 //Console.WriteLine(index);
@@ -94,17 +96,68 @@ var people = new string[] { "Tom", "Sten", "Stiven", "Bill", "Sten" };
 //var index1 = Array.IndexOf(people, "Sten");
 //Console.WriteLine(index1);
 
-string[] newPeople = new string[8];
-Array.Copy(people, 0, newPeople, 0, 3);
-newPeople.SetValue("Tom", 3);
-newPeople.SetValue("Ban", 4);
-newPeople.SetValue("Bob", 5);
-newPeople.SetValue("Tomas", 6);
-newPeople.SetValue("Jhon", 7);
+//string[] newPeople = new string[8];
+//Array.Copy(people, 0, newPeople, 0, 3);
+//newPeople.SetValue("Tom", 3);
+//newPeople.SetValue("Ban", 4);
+//newPeople.SetValue("Bob", 5);
+//newPeople.SetValue("Tomas", 6);
+//newPeople.SetValue("Jhon", 7);
 
-Array.Reverse(newPeople);
+//Array.Reverse(newPeople);
 
-foreach (var person in newPeople)
-{
-    Console.WriteLine(person);
-}
+//foreach (var person in newPeople)
+//{
+//    Console.WriteLine(person);
+//}
+
+//ArrayList arrayList = new ArrayList();
+//arrayList.Add(5);
+//arrayList.Add("Tom");
+//arrayList.Add('C');
+//arrayList.Add(12.0);
+//arrayList.AddRange(massive4);
+
+//arrayList.Insert(4, "Bob");
+
+////foreach(var i in arrayList)
+////{
+////    Console.WriteLine(i);
+////}
+
+//for (int i = 0; i <= arrayList.Count - 1; i++ )
+//{
+//    Console.WriteLine(arrayList[i]);
+//}
+
+//arrayList.Remove("Bob");
+
+//for (int i = 0; i <= arrayList.Count - 1; i++)
+//{
+//    Console.WriteLine(arrayList[i]);
+//}
+
+//List<string> list = new List<string>() { "Jhon", "Mitch" };
+//list.Add("Tom");
+//list.Add("Bob");
+
+//foreach (var s in list)
+//{
+//    Console.WriteLine(s);
+//}
+
+//Console.WriteLine(list.Count);
+
+Dictionary<string, int> dictinary = new Dictionary<string, int>();
+dictinary.Add("age", 25);
+dictinary.Add("volume", 66);
+dictinary.TryAdd("age", 33);
+
+dictinary.TryGetValue("age", out int value);
+
+Console.WriteLine(value);
+
+//foreach (var s in dictinary)
+//{
+//    Console.WriteLine(s);
+//}
