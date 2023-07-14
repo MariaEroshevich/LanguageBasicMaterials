@@ -16,5 +16,10 @@ namespace CSharpAdvanced
         {
             Console.WriteLine($"Tyaf tyaf! I am {Name}!");
         }
+
+        //public override void Bark(int count)
+        //{
+        //    base.Bark(count + 1);
+        //}
     }
 }
