@@ -21,15 +21,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolidPatterns", "SolidPatte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{A602F6C6-3F94-42A9-8CAB-9AE6A898E32B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabricMethod", "FabricMethod\FabricMethod.csproj", "{AE0425E5-A52F-4A88-A6F6-DB9A029BD2E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FabricMethod", "FabricMethod\FabricMethod.csproj", "{AE0425E5-A52F-4A88-A6F6-DB9A029BD2E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{AACB3034-4D51-47C2-897D-1C8F8386FBC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{AACB3034-4D51-47C2-897D-1C8F8386FBC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{75C71228-11A5-476B-B07D-E92D278DFAE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{75C71228-11A5-476B-B07D-E92D278DFAE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{D8920278-2A3B-415D-A450-BE71EEFC94A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{D8920278-2A3B-415D-A450-BE71EEFC94A8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAdvanced", "CSharpAdvanced\CSharpAdvanced.csproj", "{9789EDB7-D492-4C50-B16A-2D5740DFC9AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAdvancedDelegatesDynamic", "CSharpAdvancedDelegatesDynamic\CSharpAdvancedDelegatesDynamic.csproj", "{ADACFC3A-F9B8-4C65-A547-ABC7A9940EA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{9789EDB7-D492-4C50-B16A-2D5740DFC9AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9789EDB7-D492-4C50-B16A-2D5740DFC9AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9789EDB7-D492-4C50-B16A-2D5740DFC9AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADACFC3A-F9B8-4C65-A547-ABC7A9940EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADACFC3A-F9B8-4C65-A547-ABC7A9940EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADACFC3A-F9B8-4C65-A547-ABC7A9940EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADACFC3A-F9B8-4C65-A547-ABC7A9940EA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

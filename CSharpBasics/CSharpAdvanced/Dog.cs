@@ -16,5 +16,40 @@ namespace CSharpAdvanced
         public string Name { get; set; }
 
         public abstract void Bark();
+
+        //public virtual void Bark(int count)
+        //{
+        //    for (int i = 0; i < count; i++)
+        //        Bark();
+        //}
+
+        public bool IsVaccinated { get; set; }
+
+        public void SetVaccinationStatus(dynamic isVaccinated)
+        {
+            if (isVaccinated is string)
+            {
+                if (isVaccinated.Equals("Yes"))
+                {
+                    IsVaccinated = true;
+                }
+                else if (isVaccinated.Equals("No"))
+                {
+                    IsVaccinated = false;
+                }
+                else
+                {
+                    throw new ArgumentException("Illegal vaccinated value!");
+                }
+            }
+            else if (isVaccinated is bool)
+            {
+                IsVaccinated = isVaccinated;
+            }
+            else
+            {
+                throw new ArgumentException("Illegal vaccinated value!");
+            }
+        }
     }
 }
