@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTestExample", "MSTestExam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestsExample", "NUnitTestsExample\NUnitTestsExample.csproj", "{71C2BEBA-2B4D-4697-B101-D8D44B2B3AB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumBasics", "SeleniumBasics\SeleniumBasics.csproj", "{56A48E2B-3047-4C9D-81CC-B95138E0491E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{71C2BEBA-2B4D-4697-B101-D8D44B2B3AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71C2BEBA-2B4D-4697-B101-D8D44B2B3AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71C2BEBA-2B4D-4697-B101-D8D44B2B3AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56A48E2B-3047-4C9D-81CC-B95138E0491E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56A48E2B-3047-4C9D-81CC-B95138E0491E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56A48E2B-3047-4C9D-81CC-B95138E0491E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56A48E2B-3047-4C9D-81CC-B95138E0491E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
