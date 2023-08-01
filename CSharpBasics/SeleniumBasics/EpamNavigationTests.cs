@@ -14,7 +14,7 @@ namespace SeleniumBasics
         {
             //var options = new ChromeOptions();
             //options.BinaryLocation = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
-            driver = new ChromeDriver(options);
+            driver = new ChromeDriver();//(options);
 
             driver.Manage().Window.Maximize();
         }
