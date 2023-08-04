@@ -43,7 +43,7 @@ namespace SeleniumBasics
             var articles = _driver.FindElements(By.XPath("//article[@class='search-results__item']"));
             Assert.That(articles, Has.Count.EqualTo(expectedNumberOfArticles), "Invalid number of articles present!");
         }
-
+        
         [TearDown]
         public void TearDown()
         {
